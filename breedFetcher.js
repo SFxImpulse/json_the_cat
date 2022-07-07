@@ -14,7 +14,7 @@ const retrieveBreedDescription = (breedName, callback) => {
       }
     }
     if (breedChecker === false) {
-      callback("That's not a breed...");
+      callback("That's not a breed...", null);
     }
   });
 };
