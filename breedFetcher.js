@@ -2,7 +2,7 @@ const args = process.argv.slice(2);
 const request = require("request");
 
 const retrieveBreedDescription = () => {
-  request("https://api.thecatapi.com/v1/breeds/", (err, response, body) => { 
+  request("https://api.thecatapi.com/v1/breeds/", (err, response, body) => {
     if (err) {
       console.log("There was an error:");
     }
